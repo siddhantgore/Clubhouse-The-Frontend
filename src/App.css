@@ -8,6 +8,7 @@
 :root{
   --textColor:rgb(65,64,66);
   --btbBgColor:#3287b7;
+  --bgColor: #f2f0e4;
 }
 
 html{
@@ -18,4 +19,23 @@ body{
   margin: 0;
   padding: 0;
   font-size: 1em;
+}
+
+a{
+  text-decoration: none;
+}
+
+button{
+  outline: none;
+}
+
+.primaryBtn{
+  background-color: var(--btbBgColor);
+  color:white;
+  border-radius: 2em;
+  padding: 0.5em 1.5em;
+  font-size: 1.1em;
+  font-style: normal;
+  text-align: center;
+  margin-top: 10px;
 }
