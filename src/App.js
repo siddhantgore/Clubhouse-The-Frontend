@@ -8,16 +8,28 @@ import {
 } from "react-router-dom";
 import PhoneConfirmation from './pages/PhoneConfirmation';
 import CodeConfirm from './pages/CodeConfirm';
+import AllowNotification from './pages/AllowNotification';
 
 function App() {
   return (
     <BrowserRouter>
+      {/* <Routes>
+    <Route
+    exact path={[
+        "/",
+        "/invite",
+        "/get_username",
+        "/code_confirm",
+        "/allow_notification",
+      ]}> </Route>
+      </Routes> */}
       <PlanLayout>
-      <Routes>
-      <Route path="/" element={<Welcome />} />
-      <Route path="/invite" element={<PhoneConfirmation />} />
-      <Route path="/invite/code_confirm" element={<CodeConfirm />} />
-    </Routes>
+        <Routes>
+          <Route exact path="/" element={<Welcome />} />
+          <Route exact path="/invite" element={<PhoneConfirmation />} />
+          <Route exact path="/invite/code_confirm" element={<CodeConfirm />} />
+          <Route exact path="/invite/code_confirm/allow_notification" element={<AllowNotification />} />
+        </Routes>
       </PlanLayout>
     </BrowserRouter>
   );
