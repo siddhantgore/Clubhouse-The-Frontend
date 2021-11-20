@@ -1,0 +1,32 @@
+.roomCard{
+    background-color: #ffffff;
+    padding: 1em 1em;
+    margin-top: 0.5em;
+    border-radius: 1em;
+    border: none;
+}
+
+.roomCard h6{
+    color: var(--textColor);
+    font-size:0.875em ;
+    font-weight: 500;
+}
+
+.roomCard h2{
+    color:black;
+    font-size:0.975em ;
+    font-weight: 700;
+}
+
+.roomCard p{
+    font-size: 0.895em;
+    font-weight: 600;
+    color: black;
+}
+
+@media only screen and (min-width: 900px) {
+    .roomCard{
+     text-align: center;
+    }
+   
+  }
