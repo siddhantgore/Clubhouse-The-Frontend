@@ -12,13 +12,20 @@ function RoominfoCard() {
                        <div className={style.roomCard}>
                            <h6>{items.title}</h6>
                            <h2>{items.sub_title}</h2>
-                           <div>
+                           <div className="elements">
+                               <div className={style.roomMembers}>
+                                   <div>
+                                       <img src="/images/images.jpg" alt=""/>
+                                       <img src="/images/download.png" alt=""/>
+                                   </div>
+                               </div>
+                               <div>
                                {items.members.map((members)=>(
                                    <p>
                                        {members.fname} {members.lname} <BsChatDots/>
                                    </p>
                                ))}
-                               <p className="icon">
+                               <p className="icons">
                                    <span className="mr-2">1.8</span>
                                    <span className="mx-2"></span>{" "}
                                    <BsChatDotsFill/>
@@ -27,6 +34,7 @@ function RoominfoCard() {
                                    <span className="mx-2"></span>{" "}
                                    <BsFillPersonFill/>
                                </p>
+                            </div>
                            </div>
                        </div>
                    </div>
