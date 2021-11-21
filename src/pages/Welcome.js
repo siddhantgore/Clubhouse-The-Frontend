@@ -21,7 +21,7 @@ function Welcome() {
                     Get Username{""}
                     {/* <img src="" alt=""/> */}
                 </Link>
-                <Link exact to="/sign_in">Haven't an invite text? Sign in</Link>
+                <Link exact to="/sign_in">Haven't an invite text? <span>Sign in</span></Link>
             </div>
         </div>
     )

@@ -19,7 +19,7 @@ function PhoneConfirmation() {
             </p>
             <p>Thanks!</p>
             <Link exact to="code_confirm" className="primaryBtn">
-                Next <img src="" className="ml-1"/>
+                Next <img src="" alt="" className="ml-1"/>
             </Link>
         </div>
     )

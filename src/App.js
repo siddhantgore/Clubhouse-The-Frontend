@@ -9,6 +9,8 @@ import {
 import PhoneConfirmation from './pages/PhoneConfirmation';
 import CodeConfirm from './pages/CodeConfirm';
 import AllowNotification from './pages/AllowNotification';
+import AppLayout from './pages/Layouts/AppLayout';
+import Home from './pages/Home';
 
 function App() {
   return (
@@ -31,6 +33,11 @@ function App() {
           <Route exact path="/invite/code_confirm/allow_notification" element={<AllowNotification />} />
         </Routes>
       </PlanLayout>
+      <AppLayout>
+      <Routes>
+      <Route exact path="/home" element={<Home/>}/>
+      </Routes>
+      </AppLayout>
     </BrowserRouter>
   );
 }

@@ -19,8 +19,8 @@ function CodeConfirm() {
                />
                <p className="mt-2">Didn't Recieve Code? <span>Resend</span></p>
             </div>
-            <Link exact to="code_confirm" className="primaryBtn">
-                Next <img src="" className="ml-1"/>
+            <Link exact to="allow_notification" className="primaryBtn">
+                Next <img src="" alt="" className="ml-1"/>
             </Link>
         </div>
     )
