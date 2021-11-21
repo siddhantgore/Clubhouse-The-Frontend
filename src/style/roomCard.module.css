@@ -6,6 +6,7 @@
     border: none;
 }
 
+
 .roomCard h6{
     color: var(--textColor);
     font-size:0.875em ;
@@ -24,9 +25,36 @@
     color: black;
 }
 
+.roomMembers img{
+     width: 35px;
+     height: 35px;
+     border-radius: 0.6em;
+
+}
+
+.roomMembers{
+    display: flex;
+    align-items: flex-start;
+}
+
+.roomMembers p{
+    font-size: 0.975em; 
+}
+
+
 @media only screen and (min-width: 900px) {
     .roomCard{
      text-align: center;
     }
+    .icons{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .roomMembers{
+        display: flex;
+        justify-content: center;
+    }
    
   }
+
