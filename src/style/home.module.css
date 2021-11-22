@@ -6,3 +6,37 @@
    overflow: auto;
    height: 100vh;
 }
+
+.homeContainer+ .actionBtn button{
+   background-color: transparent;
+   border: none;
+   margin-left: auto;
+
+}
+
+.homeContainer+ .actionBtn button svg{
+   font-size: 1.3em;
+}
+
+.homeContainer+ .actionBtn{
+   display: flex;
+   align-items: center;
+   padding: 1em 2em 1em 1.5em;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   position:absolute; 
+   
+}
+
+.homeContainer+ .actionBtn>button:first-child{
+   border-radius: 2em;
+   background-color: #28ae61;
+   color: white;
+   padding: 0.3em 1em;
+   display: flex;
+   align-items: center;
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+}
