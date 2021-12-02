@@ -3,7 +3,7 @@ import SwipeableBottomSheet from "react-swipeable-bottom-sheet";
 import style from "../style/bottomSheet.module.css";
 import data from "../data/roomCard.json";
 
-function BottomSheet() {
+function BottomSheet(props) {
     return (
         <SwipeableBottomSheet
         open={props.sheetVisible}
