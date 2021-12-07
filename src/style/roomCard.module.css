@@ -41,6 +41,10 @@
     font-size: 0.975em; 
 }
 
+.roomMembers>div:first-child>img:nth-child(2){
+    position:relative;
+    right: 1em;
+}
 
 @media only screen and (min-width: 900px) {
     .roomCard{
